@@ -14,4 +14,16 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>driver/chromedriver.exe</name>
+			<type>1</type>
+			<location>D:/cs/Selenium/chromedriver_win32/chromedriver.exe</location>
+		</link>
+		<link>
+			<name>driver/geckodriver.exe</name>
+			<type>1</type>
+			<location>D:/cs/Selenium/geckodriver-v0.30.0-win64/geckodriver.exe</location>
+		</link>
+	</linkedResources>
 </projectDescription>
