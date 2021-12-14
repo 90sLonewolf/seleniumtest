@@ -15,6 +15,8 @@ public class checkTitle {
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.amazon.in/");
+	String url=driver.getCurrentUrl();
+	System.out.println(url);
 	
 	
 	String title=driver.getTitle();
